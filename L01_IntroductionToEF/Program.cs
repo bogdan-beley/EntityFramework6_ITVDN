@@ -10,6 +10,14 @@ namespace L01_IntroductionToEF
     {
         static void Main(string[] args)
         {
+            MyDatabaseEntities context = new MyDatabaseEntities();
+
+            var myTables = context.MyTables.ToList();
+
+            foreach (var item in myTables)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
