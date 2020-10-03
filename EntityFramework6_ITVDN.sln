@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L01_IntroductionToEF", "L01
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L02_EntityFrameworkFundamentals_HW1", "L02_EntityFrameworkFundamentals_HW1\L02_EntityFrameworkFundamentals_HW1.csproj", "{406C9A01-22E1-4062-8645-CED4D1A1BE1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L02_EntityFrameworkFundamentals_HW2", "L02_EntityFrameworkFundamentals_HW2\L02_EntityFrameworkFundamentals_HW2.csproj", "{6C0480B6-9E01-4D8E-AF68-5CB5A272A0FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{406C9A01-22E1-4062-8645-CED4D1A1BE1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{406C9A01-22E1-4062-8645-CED4D1A1BE1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{406C9A01-22E1-4062-8645-CED4D1A1BE1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0480B6-9E01-4D8E-AF68-5CB5A272A0FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0480B6-9E01-4D8E-AF68-5CB5A272A0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0480B6-9E01-4D8E-AF68-5CB5A272A0FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0480B6-9E01-4D8E-AF68-5CB5A272A0FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
