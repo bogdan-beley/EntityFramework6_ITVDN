@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L02_EntityFrameworkFundamen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L02_EntityFrameworkFundamentals_HW2", "L02_EntityFrameworkFundamentals_HW2\L02_EntityFrameworkFundamentals_HW2.csproj", "{6C0480B6-9E01-4D8E-AF68-5CB5A272A0FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L03_LINQFeatures_HW", "L03_LINQFeatures_HW\L03_LINQFeatures_HW.csproj", "{BA44D40A-9BA0-4371-92E4-C75094E6CC55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6C0480B6-9E01-4D8E-AF68-5CB5A272A0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C0480B6-9E01-4D8E-AF68-5CB5A272A0FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C0480B6-9E01-4D8E-AF68-5CB5A272A0FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA44D40A-9BA0-4371-92E4-C75094E6CC55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA44D40A-9BA0-4371-92E4-C75094E6CC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA44D40A-9BA0-4371-92E4-C75094E6CC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA44D40A-9BA0-4371-92E4-C75094E6CC55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

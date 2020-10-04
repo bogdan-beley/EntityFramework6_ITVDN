@@ -101,7 +101,7 @@ namespace L02_EntityFrameworkFundamentals_HW2
                 Product p1 = new Product { Name = "The Hunger Games", Types = new List<Type> { t7 } };
                 Product p2 = new Product { Name = "Watchman", Types = new List<Type> { t2, t9 } };
 
-                db.Products.AddRange(new List<Product> { p1, p2 });
+                db.Products.AddRange(new List<Product> { p1, p2, p3});
                 db.SaveChanges();
 
                 //Sections, Types and Products.
