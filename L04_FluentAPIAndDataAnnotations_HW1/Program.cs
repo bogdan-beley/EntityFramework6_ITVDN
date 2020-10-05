@@ -20,15 +20,17 @@ namespace L04_FluentAPIAndDataAnnotations_HW1
             {
                 Console.WriteLine($"{blog.Id}. {blog.Name}:");
 
-                if (blog.Articles == null) continue;
+                if (blog.Articles.Count <= 0)
+                {
+                    Console.WriteLine("There are no articles.");
+                    continue;
+                }
 
                 foreach (var article in blog.Articles)
                 {
                     Console.WriteLine($" * {article.Id}. {article.Title}: {article.Text}");
                 }
             }
-
-
         }
     }
 }

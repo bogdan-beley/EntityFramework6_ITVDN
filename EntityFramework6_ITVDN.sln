@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L03_LINQFeatures_HW", "L03_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L04_FluentAPIAndDataAnnotations_HW1", "L04_FluentAPIAndDataAnnotations_HW1\L04_FluentAPIAndDataAnnotations_HW1.csproj", "{870655D9-C423-44EC-AD08-881561665D0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L04_FluentAPIAndDataAnnotations_HW2", "L04_FluentAPIAndDataAnnotations_HW2\L04_FluentAPIAndDataAnnotations_HW2.csproj", "{231D33C5-ED93-4E2C-BE8E-E86EAACF8B72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{870655D9-C423-44EC-AD08-881561665D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{870655D9-C423-44EC-AD08-881561665D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{870655D9-C423-44EC-AD08-881561665D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{231D33C5-ED93-4E2C-BE8E-E86EAACF8B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{231D33C5-ED93-4E2C-BE8E-E86EAACF8B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{231D33C5-ED93-4E2C-BE8E-E86EAACF8B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{231D33C5-ED93-4E2C-BE8E-E86EAACF8B72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
