@@ -12,23 +12,25 @@ namespace L04_FluentAPIAndDataAnnotations_HW1
     {
         static void Main(string[] args)
         {
-            DataModel db = new DataModel();
+            using (DataModel db = new DataModel())
+            { 
 
-            var query = db.Blogs.Include(b => b.Articles);
+                var query = db.Blogs.Include(b => b.Articles);
 
-            foreach (var blog in query)
-            {
-                Console.WriteLine($"{blog.Id}. {blog.Name}:");
-
-                if (blog.Articles.Count <= 0)
+                foreach (var blog in query)
                 {
-                    Console.WriteLine("There are no articles.");
-                    continue;
-                }
+                    Console.WriteLine($"{blog.Id}. {blog.Name}:");
 
-                foreach (var article in blog.Articles)
-                {
-                    Console.WriteLine($" * {article.Id}. {article.Title}: {article.Text}");
+                    if (blog.Articles.Count <= 0)
+                    {
+                        Console.WriteLine("There are no articles.");
+                        continue;
+                    }
+
+                    foreach (var article in blog.Articles)
+                    {
+                        Console.WriteLine($" * {article.Id}. {article.Title}: {article.Text}");
+                    }
                 }
             }
         }

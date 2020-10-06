@@ -12,23 +12,24 @@ namespace L04_FluentAPIAndDataAnnotations_HW2
     {
         static void Main(string[] args)
         {
-            ForumModel db = new ForumModel();
+            using (ForumModel db = new ForumModel())
+            { 
+                var query = db.Forums.Include(f => f.Messages);
 
-            var query = db.Forums.Include(f => f.Messages);
-
-            foreach (var forum in query)
-            {
-                Console.WriteLine($"{forum.Id}. {forum.Name}:");
-
-                if (forum.Messages.Count <= 0)
+                foreach (var forum in query)
                 {
-                    Console.WriteLine("There are no messages.");
-                    continue;
-                }
+                    Console.WriteLine($"{forum.Id}. {forum.Name}:");
 
-                foreach (var message in forum.Messages)
-                {
-                    Console.WriteLine($" * {message.Id}. {message.Text}. Status: {message.Status}");
+                    if (forum.Messages.Count <= 0)
+                    {
+                        Console.WriteLine("There are no messages.");
+                        continue;
+                    }
+
+                    foreach (var message in forum.Messages)
+                    {
+                        Console.WriteLine($" * {message.Id}. {message.Text}. Status: {message.Status}");
+                    }
                 }
             }
         }
